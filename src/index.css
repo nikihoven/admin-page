@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.main {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem;
+    grid-gap: 1rem;
+    height: 100vh;
+    align-items: center;
+}
+
+.heading {
+    margin-bottom: 2rem;
+    font-size: 3rem;
+}
+
+.main__half {
+    display: grid;
+    grid-gap: 3px;
+}
+
+.form {
+    display: grid;
+    grid-gap: .5rem;
+}
+
+.form + .form {
+    margin-top: 2rem;
+}
+
+.form__label {
+    display: grid;
+    grid-gap: 0.7rem;
+}
+
+.form__input {
+    padding: 0.5rem 2rem;
+}
+
+.form__button {
+    display: flex;
+    width: max-content;
+    padding: 0.3rem 1rem;
+}
