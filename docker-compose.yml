@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  nginx-admin-panel:
+    build:
+      context: .
+    container_name: nginx-admin-panel
+    ports:
+      - '80:80'
+    restart: always
